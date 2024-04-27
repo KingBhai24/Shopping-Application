@@ -1,0 +1,46 @@
+<resources>
+    <!--  .......................................  -->
+    <string name="app_name">ShoppingCartApplication_RoomDBVersion</string>
+    <!--  .......................................  -->
+    <!-- ActivityMain -->
+    <string name="ActivityMain_Tv1">No Screen For this Configuration Found!</string>
+    <!--  .......................................  -->
+    <!-- FragmentListItem -->
+    <string name="FragmentListItems_Pt1">Search</string>
+    <string name="FragmentListItems_Bt1">Cart</string>
+    <string name="FragmentListItems_Bt2">Toggle</string>
+    <!-- FragmentItemDetails -->
+    <string name="FragmentItemDetails_Tv1">Name</string>
+    <string name="FragmentItemDetails_Tv2">Price</string>
+    <string name="FragmentItemDetails_Tv3">Description</string>
+    <string name="FragmentItemDetails_Bt1">Add to Cart</string>
+    <!-- FragmentCartItemList -->
+    <string name="FragmentCartItemList_Tv1">Shopping Cart</string>
+    <string name="FragmentCartItemList_Tv2">Total</string>
+    <!--  .......................................  -->
+    <!-- ItemRecyclerViewAdapterViewHolder -->
+    <string name="ItemRecyclerViewAdapterViewHolder_Tv1">Name</string>
+    <string name="ItemRecyclerViewAdapterViewHolder_Tv2">Price</string>
+    <!-- CartItemRecyclerViewAdapterViewHolder -->
+    <string name="CartItemRecyclerViewAdapterViewHolder_Tv1">Name</string>
+    <string name="CartItemRecyclerViewAdapterViewHolder_Tv2">Price</string>
+    <string name="CartItemRecyclerViewAdapterViewHolder_Tv3">Count</string>
+    <string name="CartItemRecyclerViewAdapterViewHolder_Bt1">-</string>
+    <string name="CartItemRecyclerViewAdapterViewHolder_Bt2">+</string>
+    <string name="CartItemRecyclerViewAdapterViewHolder_Cb1"></string>
+    <!--  .......................................  -->
+    <!-- MainActivityMenu -->
+    <string name="MainActivityMenu_Mi1">Test Activity</string>
+    <string name="MainActivityMenu_Mi2">Profile</string>
+    <string name="MainActivityMenu_Mi3">Settings</string>
+    <string name="MainActivityMenu_Mi4">Log Out</string>
+    <!--  .......................................  -->
+    <!-- ItemListFragmentMenu -->
+    <string name="ItemListFragmentMenu_Mi1">Count</string>
+    <string name="ItemListFragmentMenu_Mi2">Add Items</string>
+    <!-- CartItemListFragmentMenu -->
+    <string name="CartItemListFragmentMenu_Mi1">Count</string>
+    <string name="CartItemListFragmentMenu_Mi2">Delete Items</string>
+
+    <!--  .......................................  -->
+</resources>

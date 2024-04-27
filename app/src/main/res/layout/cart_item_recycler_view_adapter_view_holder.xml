@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/CartItemRecyclerViewAdapterViewHolder_Iv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/_default" />
+
+    <TextView
+        android:id="@+id/CartItemRecyclerViewAdapterViewHolder_Tv1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/CartItemRecyclerViewAdapterViewHolder_Tv1"
+        app:layout_constraintEnd_toStartOf="@+id/CartItemRecyclerViewAdapterViewHolder_BrVr2"
+        app:layout_constraintStart_toStartOf="@+id/CartItemRecyclerViewAdapterViewHolder_BrVr1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/CartItemRecyclerViewAdapterViewHolder_Tv2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/CartItemRecyclerViewAdapterViewHolder_Tv2"
+        app:layout_constraintEnd_toStartOf="@+id/CartItemRecyclerViewAdapterViewHolder_BrVr2"
+        app:layout_constraintStart_toStartOf="@+id/CartItemRecyclerViewAdapterViewHolder_BrVr1"
+        app:layout_constraintTop_toBottomOf="@+id/CartItemRecyclerViewAdapterViewHolder_Tv1" />
+
+    <TextView
+        android:id="@+id/CartItemRecyclerViewAdapterViewHolder_Tv3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/CartItemRecyclerViewAdapterViewHolder_Tv3"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/CartItemRecyclerViewAdapterViewHolder_Bt2"
+        app:layout_constraintStart_toEndOf="@+id/CartItemRecyclerViewAdapterViewHolder_Bt1"
+        app:layout_constraintTop_toBottomOf="@+id/CartItemRecyclerViewAdapterViewHolder_Tv2" />
+
+    <Button
+        android:id="@+id/CartItemRecyclerViewAdapterViewHolder_Bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/CartItemRecyclerViewAdapterViewHolder_Bt1"
+        app:layout_constraintStart_toStartOf="@+id/CartItemRecyclerViewAdapterViewHolder_BrVr1"
+        app:layout_constraintTop_toBottomOf="@+id/CartItemRecyclerViewAdapterViewHolder_Tv2" />
+
+    <Button
+        android:id="@+id/CartItemRecyclerViewAdapterViewHolder_Bt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/CartItemRecyclerViewAdapterViewHolder_Bt2"
+        app:layout_constraintEnd_toStartOf="@+id/CartItemRecyclerViewAdapterViewHolder_BrVr2"
+        app:layout_constraintTop_toBottomOf="@+id/CartItemRecyclerViewAdapterViewHolder_Tv2" />
+
+    <CheckBox
+        android:id="@+id/CartItemRecyclerViewAdapterViewHolder_Cb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/CartItemRecyclerViewAdapterViewHolder_Cb1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/CartItemRecyclerViewAdapterViewHolder_BrVr1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="end"
+        app:constraint_referenced_ids="CartItemRecyclerViewAdapterViewHolder_Iv1"
+        tools:layout_editor_absoluteX="411dp" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/CartItemRecyclerViewAdapterViewHolder_BrVr2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="start"
+        app:constraint_referenced_ids="CartItemRecyclerViewAdapterViewHolder_Cb1"
+        tools:layout_editor_absoluteX="411dp" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/CartItemRecyclerViewAdapterViewHolder_BrHr1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="bottom"
+        app:constraint_referenced_ids="CartItemRecyclerViewAdapterViewHolder_Iv1,CartItemRecyclerViewAdapterViewHolder_Cb1,CartItemRecyclerViewAdapterViewHolder_Tv3,CartItemRecyclerViewAdapterViewHolder_Bt2,CartItemRecyclerViewAdapterViewHolder_Bt1"
+        tools:layout_editor_absoluteY="731dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

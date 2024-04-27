@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  .......................................  -->
+    <!-- ItemListFragment -->
+    <string name="ItemListFragment_SelectedItemsAdded">Items Added.</string>
+    <!-- ItemDetailFragment -->
+    <string name="ItemDetailFragment_SelectedItemAdded">Item Added.</string>
+    <!-- CartItemListFragment -->
+    <string name="CartItemListFragment_SelectedItemsRemoved">Items Removed.</string>
+    <!--  .......................................  -->
+</resources>

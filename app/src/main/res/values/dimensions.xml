@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  .......................................  -->
+    <!-- Standards -->
+    <!-- Margins -->
+    <dimen name="default_margin">08dp</dimen>
+    <!--  .......................................  -->
+    <!-- ActivityMainLand -->
+    <item name="ActivityMainLand_GlVr3" type ="fraction">0.48</item>
+    <item name="ActivityMainLand_GlVr4" type="fraction">0.52</item>
+    <!--  .......................................  -->
+</resources>
